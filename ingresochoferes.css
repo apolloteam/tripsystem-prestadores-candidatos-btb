@@ -17,6 +17,19 @@
     text-transform: uppercase;
 }
 
+.envdiadoconductores h3{
+    background: #00f18d;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 13px;
+    padding: 10px 5px;
+    color: #5d5d5d;
+    text-align: center;
+    margin-top: -15px;
+    border-radius: 6px;
+    display: none;
+}
+
 .maxinc {
     margin-bottom: 10px;
 }

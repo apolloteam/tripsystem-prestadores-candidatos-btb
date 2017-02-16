@@ -30,6 +30,17 @@
     display: none;
 }
 
+
+.error {
+    background: rgb(241, 0, 0) !important;
+    color: #f5f5f5 !important;    
+}
+
+.success {
+    background: #00f18d !important;
+    color: #5d5d5d !important;    
+}
+
 .maxinc {
     margin-bottom: 10px;
 }

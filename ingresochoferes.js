@@ -23,10 +23,10 @@ $(document).ready(function () {
 function postToAPI(postSuccess, postError) {
 
   var requestData = {
-      nombres :  $('#nombre1chofer').val(),
-      apellido : $('#apellid1ochofer').val(),
-      email : $('#mailchofer1').val(),
-      telMovil : $('#celularc1hofer').val()
+      nombres :  $('#nombrechofer').val(),
+      apellido : $('#apellidochofer').val(),
+      email : $('#mailchofer').val(),
+      telMovil : $('#celularchofer').val()
   };
   
   console.log(requestData); //use the console for debugging, F12 in Chrome, not alerts

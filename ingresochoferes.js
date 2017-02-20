@@ -4,6 +4,8 @@ $(document).ready(function () {
       
       e.preventDefault();
 
+      $(":submit").fadeOut();
+
       postToAPI(
           function (result) { // Success Call
             $('.enviadoconductores > h3').removeClass('error').addClass('success').html('Los datos fueron recibidos, nos estaremos contactando en breve. Muchas Gracias!').fadeIn();
